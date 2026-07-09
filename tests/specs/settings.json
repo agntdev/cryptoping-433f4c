@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/settings",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure quiet hours, alert types, and summary time"
+            }
+          }
+        ],
+        "send": {
+          "text": "/settings"
+        }
+      }
+    ]
+  }
+]
