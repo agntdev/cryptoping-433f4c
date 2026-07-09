@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add Bitcoin",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Quickly add BTC to watchlist with default rules"
+            }
+          }
+        ],
+        "send": {
+          "callback": "watchlist:add:BTC"
+        }
+      }
+    ]
+  }
+]
