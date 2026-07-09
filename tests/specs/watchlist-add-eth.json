@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add Ethereum",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Quickly add ETH to watchlist with default rules"
+            }
+          }
+        ],
+        "send": {
+          "callback": "watchlist:add:ETH"
+        }
+      }
+    ]
+  }
+]
